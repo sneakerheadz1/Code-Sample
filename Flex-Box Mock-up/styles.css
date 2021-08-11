@@ -1,0 +1,53 @@
+.container{
+    border: solid blue 4px;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    border: solid red 2px;
+    /*background: pink;*/
+    width: 25%;
+    height: 50%;
+    text-align: center;
+}
+
+.containerB{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+}
+
+.body{
+    border: solid orange 4px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+.bodyItem{
+    border: solid purple 3px;
+    width: 30%;
+    height: 40%;
+}
+.side{
+    border: solid green 4px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.sideItem{
+    border: solid rgb(26, 196, 222) 3px;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+
+}

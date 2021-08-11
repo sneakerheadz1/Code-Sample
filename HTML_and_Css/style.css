@@ -1,0 +1,17 @@
+div{
+    border: solid black 1px;
+}
+
+.bottomDiv{
+    border: solid red 5px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: solid blue 5px;
+}
+
+#box3{
+    border: solid orange 10px;
+}

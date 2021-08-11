@@ -1,0 +1,33 @@
+.parent{
+    width: 100vw;
+    height: 100vh;
+    border: solid black 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header"
+                     "nav article article"
+                     "nav article article"
+                     "footer footer footer"                    
+    ;
+    gap: 5px;
+}
+
+.parent  > div{
+    background-color: red;
+    border: solid black 1px;
+}
+
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+}
+.article{
+    grid-area: article;
+}
+
+.footer{
+    grid-area: footer;
+}

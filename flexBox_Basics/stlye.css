@@ -1,0 +1,18 @@
+.box{
+    border: solid red 5px;
+    width: 5%;
+    height: 50%;
+}
+
+.container{
+    height: 50vh;
+    width: 100vw;
+    border: solid 5px blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{   
+    margin: 0 auto;
+}
